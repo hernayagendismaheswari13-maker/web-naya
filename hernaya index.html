@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>President University | Club Registration</title>
+    <meta name="description"
+        content="Register for student clubs at President University. Explore technology, sports, and creative communities.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Outfit:wght@500;700;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#" class="logo">PresUniv<span>Clubs</span></a>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#activities">Activities</a></li>
+                <li><a href="#events">Events</a></li>
+            </ul>
+            <a href="#join" class="btn btn-primary nav-cta">Join Us</a>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-container">
+            <div class="hero-content animate-slide-up">
+                <span class="pill-badge">President University Registration</span>
+                <h1>Find Your <span>Community</span></h1>
+                <p>Join official student clubs at President University. Develop your skills, make new friends, and enjoy
+                    your campus life.</p>
+                <div class="hero-actions">
+                    <a href="#join" class="btn btn-primary">Register Now</a>
+                    <a href="#activities" class="btn btn-secondary">Explore Activities</a>
+                </div>
+                <div class="social-proof">
+                    <div class="avatars">
+                        <div class="avatar" style="background-color: var(--primary);"></div>
+                        <div class="avatar" style="background-color: var(--secondary);"></div>
+                        <div class="avatar" style="background-color: var(--accent);"></div>
+                        <div class="avatar">+</div>
+                    </div>
+                    <span>Over <b>30+</b> active clubs</span>
+                </div>
+            </div>
+            <div class="hero-image-wrapper animate-slide-up" style="animation-delay: 0.2s;">
+                <!-- Decorative Elements -->
+                <div class="blob shape-1"></div>
+                <div class="blob shape-2"></div>
+                <div class="hero-image-container">
+                    <img src="assets/hero_students.png" alt="Students collaborating and having fun" class="hero-image">
+                    <div class="floating-card glass">
+                        <span class="icon">🚀</span>
+                        <div class="floating-text">
+                            <strong>15+</strong>
+                            <span>Weekly Events</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Activities Section -->
+    <section class="activities" id="activities">
+        <div class="section-header animate-slide-up">
+            <h2>Find Your <span>Organization</span></h2>
+            <p>From the Student Council to special interest clubs, we have something for everyone. Dive into what you
+                love and meet like-minded people.</p>
+        </div>
+        <div class="activities-grid">
+            <div class="activity-card animate-slide-up">
+                <div class="card-image">
+                    <img src="assets/activity_tech.png" alt="Student Council">
+                </div>
+                <div class="card-content">
+                    <div class="card-badge">Main Organization</div>
+                    <h3>Organizations</h3>
+                    <p>Join official student organizations (like PUSC and PUMA) to be the voice of the students and make
+                        a real impact on campus life.</p>
+                    <a href="#" class="text-link modal-trigger" data-modal="modal-orgs">Learn more &rarr;</a>
+                </div>
+            </div>
+            <div class="activity-card animate-slide-up" style="animation-delay: 0.1s;">
+                <div class="card-image">
+                    <img src="assets/activity_sports.png" alt="Sports and Outdoors">
+                </div>
+                <div class="card-content">
+                    <div class="card-badge">Sports</div>
+                    <h3>Athletics & Outdoors</h3>
+                    <p>Stay active with our weekly sports meetups. Whether you are into competitive leagues or casual
+                        outdoor games, we've got you covered.</p>
+                    <a href="#" class="text-link modal-trigger" data-modal="modal-sports">Learn more &rarr;</a>
+                </div>
+            </div>
+            <div class="activity-card animate-slide-up" style="animation-delay: 0.2s;">
+                <div class="card-image bg-gradient">
+                    <div class="placeholder-icon">🎭</div>
+                </div>
+                <div class="card-content">
+                    <div class="card-badge">Interests</div>
+                    <h3>Clubs & Communities</h3>
+                    <p>Explore your passions with over 30+ clubs ranging from traditional dances, music, sports teams,
+                        e-sports, to tech communities.</p>
+                    <a href="#" class="text-link modal-trigger" data-modal="modal-clubs">Learn more &rarr;</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Events Banner -->
+    <section class="events-banner" id="events">
+        <div class="events-container glass-dark animate-slide-up">
+            <div class="events-text">
+                <h2>Upcoming <span>Mega</span> Event</h2>
+                <p>Don't miss the Annual Innovation Summit this Fall. Networking, workshops, and a $5000 prize
+                    hackathon.</p>
+            </div>
+            <div class="events-timer">
+                <div class="time-box">
+                    <strong>12</strong>
+                    <span>Days</span>
+                </div>
+                <div class="time-box">
+                    <strong>04</strong>
+                    <span>Hours</span>
+                </div>
+                <div class="time-box">
+                    <strong>45</strong>
+                    <span>Mins</span>
+                </div>
+            </div>
+            <a href="#" class="btn btn-primary white-btn">Register Free</a>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials" id="about">
+        <div class="section-header animate-slide-up">
+            <h2>Real <span>Stories</span></h2>
+            <p>Hear from our students about how joining a club changed their President University life.</p>
+        </div>
+        <div class="testimonial-grid">
+            <div class="testimonial-card animate-slide-up">
+                <div class="quote-icon">"</div>
+                <p class="quote">"Joining the Innovation club was the highlight of my freshman year. I met my
+                    co-founders here and learned so much more than in my classes."</p>
+                <div class="author">
+                    <div class="author-avatar img-1"></div>
+                    <div class="author-info">
+                        <strong>Putri Meirthalia</strong>
+                        <span>Computer Science, '25</span>
+                    </div>
+                </div>
+            </div>
+            <div class="testimonial-card animate-slide-up" style="animation-delay: 0.1s;">
+                <div class="quote-icon">"</div>
+                <p class="quote">"The sports division is incredibly welcoming. It's the perfect way to distress after
+                    midterms and make friends outside your major."</p>
+                <div class="author">
+                    <div class="author-avatar img-2"></div>
+                    <div class="author-info">
+                        <strong>Jeremy Joses</strong>
+                        <span>Business, '24</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section" id="join">
+        <div class="cta-container animate-slide-up">
+            <h2>Ready to <span>Register?</span></h2>
+            <p>Ready to join your favorite club? Click below to start.</p>
+            <button class="btn btn-primary modal-trigger" data-modal="modal-register"
+                style="margin-top: 2rem; padding: 1rem 3rem;">Register Now</button>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-brand">
+                <a href="#" class="logo">PresUniv<span>Clubs</span></a>
+                <p>Official club registration platform for President University students.</p>
+            </div>
+            <div class="footer-links">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#activities">Activities</a></li>
+                    <li><a href="#" class="modal-trigger" data-modal="modal-login">Admin Dashboard</a></li>
+                </ul>
+            </div>
+            <div class="footer-links">
+                <h4>Legal</h4>
+                <ul>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Terms of Service</a></li>
+                    <li><a href="#">Code of Conduct</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 President University Student Council. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Modals -->
+    <div id="modal-orgs" class="modal">
+        <div class="modal-content">
+            <span class="close-btn">&times;</span>
+            <h3>Main Organizations</h3>
+            <ul class="modal-list">
+                <li><strong>PUSC</strong> - President University Student Council</li>
+                <li><strong>PUMA IT</strong> - Information Technology Major Association</li>
+                <li><strong>PUMA IS</strong> - Information Systems Major Association</li>
+                <li><strong>PUMA BA</strong> - Business Administration Major Association</li>
+                <li><strong>PUMA ACC</strong> - Accounting Major Association</li>
+                <li><strong>PUMA VCD</strong> - Visual Communication Design Major Association</li>
+                <li><strong>PUMA IR</strong> - International Relations Major Association</li>
+                <li><strong>PUMA COM</strong> - Communications Major Association</li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="modal-sports" class="modal">
+        <div class="modal-content">
+            <span class="close-btn">&times;</span>
+            <h3>Sports Clubs</h3>
+            <ul class="modal-list">
+                <li><strong>Basketball Club</strong> - Competitive and recreational hoops</li>
+                <li><strong>Futsal Club</strong> - Weekly matches and tournaments</li>
+                <li><strong>Tennis Club</strong> - Court training and practice</li>
+                <li><strong>Badminton Club</strong> - Intensive drills and sparring</li>
+                <li><strong>e-Sports</strong> - Mobile Legends, Valorant, PUBG divisions</li>
+                <li><strong>Table Tennis</strong> - Casual and tournament play</li>
+                <li><strong>Swimming Club</strong> - Pool training sessions</li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="modal-clubs" class="modal">
+        <div class="modal-content">
+            <span class="close-btn">&times;</span>
+            <h3>Clubs & Communities</h3>
+            <ul class="modal-list">
+                <li><strong>KDC (Korean Dance Club)</strong> - K-Pop dance covers</li>
+                <li><strong>Jepret</strong> - Photography and Videography club</li>
+                <li><strong>PEC (President English Club)</strong> - Debating and English skills</li>
+                <li><strong>Music Club</strong> - Bands, vocals, and instruments</li>
+                <li><strong>AIESEC</strong> - International leadership exchange</li>
+                <li><strong>Technology Hub</strong> - Coding, AI, and robotics enthusiast</li>
+                <li><strong>Traditional Dance</strong> - Indonesian cultural dances</li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="modal-register" class="modal">
+        <div class="modal-content">
+            <span class="close-btn">&times;</span>
+            <h3 style="margin-bottom: 0.5rem;">Club Registration</h3>
+            <p style="margin-bottom: 1.5rem; color: var(--text-secondary); font-size: 0.95rem;">Please fill out your
+                details below.</p>
+            <form class="register-form">
+                <input type="text" id="reg-name" placeholder="Full Name" required>
+                <input type="email" id="reg-email" placeholder="Student Email (@student.president.ac.id)" required>
+                <input type="text" id="reg-major" placeholder="Major (e.g., IT, Business)" required>
+                <input type="text" id="reg-batch" placeholder="Batch (e.g., 2026)" required>
+                <input type="tel" id="reg-wa" placeholder="WhatsApp Number" required>
+                <select id="reg-club" required>
+                    <option value="" disabled selected>Select Organization / Club</option>
+                    <optgroup label="Main Organizations">
+                        <option value="pusc">PUSC (Student Council)</option>
+                        <option value="puma-it">PUMA IT</option>
+                        <option value="puma-is">PUMA IS</option>
+                        <option value="puma-ba">PUMA BA</option>
+                        <option value="puma-acc">PUMA ACC</option>
+                        <option value="puma-vcd">PUMA VCD</option>
+                        <option value="puma-ir">PUMA IR</option>
+                        <option value="puma-com">PUMA COM</option>
+                    </optgroup>
+                    <optgroup label="Sports Clubs">
+                        <option value="basketball">Basketball Club</option>
+                        <option value="futsal">Futsal Club</option>
+                        <option value="tennis">Tennis Club</option>
+                        <option value="badminton">Badminton Club</option>
+                        <option value="esports">e-Sports</option>
+                        <option value="table-tennis">Table Tennis</option>
+                        <option value="swimming">Swimming Club</option>
+                    </optgroup>
+                    <optgroup label="Clubs & Communities">
+                        <option value="kdc">KDC (Korean Dance Club)</option>
+                        <option value="jepret">Jepret (Photography)</option>
+                        <option value="pec">PEC (President English Club)</option>
+                        <option value="music">Music Club</option>
+                        <option value="aiesec">AIESEC</option>
+                        <option value="tech-hub">Technology Hub</option>
+                        <option value="traditional-dance">Traditional Dance</option>
+                    </optgroup>
+                    <option value="other">Others...</option>
+                </select>
+                <button type="submit" class="btn btn-primary btn-block">Submit Application</button>
+            </form>
+        </div>
+    </div>
+
+
+    <!-- Admin Login Modal -->
+    <div id="modal-login" class="modal">
+        <div class="modal-content" style="max-width: 400px; text-align: center;">
+            <span class="close-btn">&times;</span>
+            <h3 style="margin-bottom: 0.5rem;">Admin Access</h3>
+            <p style="margin-bottom: 1.5rem; color: var(--text-secondary); font-size: 0.95rem;">Please enter the admin
+                password to view the database.</p>
+            <form id="login-form" class="register-form" style="margin-top: 0;">
+                <input type="password" id="admin-password" placeholder="Password" required style="margin-bottom: 1rem;">
+                <button type="submit" class="btn btn-primary btn-block">Login</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- Admin Data Dashboard Modal -->
+    <div id="modal-admin" class="modal">
+        <div class="modal-content" style="max-width: 900px; width: 95%;">
+            <span class="close-btn">&times;</span>
+            <h3 style="margin-bottom: 0.5rem;">Registration Data</h3>
+            <p style="margin-bottom: 1.5rem; color: var(--text-secondary); font-size: 0.95rem;">All club registrations
+                are temporarily saved in your browser's local storage.</p>
+
+            <div class="actions-row" style="margin-bottom: 1rem; text-align: right;">
+                <button id="btn-download-csv" class="btn btn-primary"
+                    style="padding: 0.5rem 1.5rem; font-size: 0.9rem;">Download CSV</button>
+                <button id="btn-clear-data" class="btn btn-secondary"
+                    style="padding: 0.5rem 1.5rem; font-size: 0.9rem; margin-left: 0.5rem;">Clear Data</button>
+            </div>
+
+            <div class="table-container"
+                style="overflow-x: auto; max-height: 400px; border: 1px solid #e5e7eb; border-radius: var(--border-radius-sm);">
+                <table id="admin-table" style="width: 100%; border-collapse: collapse; text-align: left;">
+                    <thead style="background-color: #f9fafb; position: sticky; top: 0;">
+                        <tr>
+                            <th style="padding: 1rem; border-bottom: 1px solid #e5e7eb; font-weight: 600;">#</th>
+                            <th style="padding: 1rem; border-bottom: 1px solid #e5e7eb; font-weight: 600;">Time</th>
+                            <th style="padding: 1rem; border-bottom: 1px solid #e5e7eb; font-weight: 600;">Name</th>
+                            <th style="padding: 1rem; border-bottom: 1px solid #e5e7eb; font-weight: 600;">Email</th>
+                            <th style="padding: 1rem; border-bottom: 1px solid #e5e7eb; font-weight: 600;">Major / Batch
+                            </th>
+                            <th style="padding: 1rem; border-bottom: 1px solid #e5e7eb; font-weight: 600;">WA</th>
+                            <th style="padding: 1rem; border-bottom: 1px solid #e5e7eb; font-weight: 600;">Club chosen
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody id="admin-tbody">
+                        <!-- Filled by JS -->
+                    </tbody>
+                </table>
+            </div>
+            <p id="admin-empty-msg"
+                style="text-align: center; margin-top: 2rem; display: none; color: var(--text-light);">No data found.
+                Submit a registration first.</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
